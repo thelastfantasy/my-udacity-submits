@@ -1,0 +1,46 @@
+/* 添加 CSS */
+
+body {
+    font-family: Arial, "Times New Roman", "Microsoft YaHei", SimHei;
+    font-size: 14px;
+}
+
+.card-title {
+    font-size: 1.7em;
+}
+
+.card-container {
+    width: 300px;
+    border: 1px solid #bbb;
+    padding: 15px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(221, 221, 221, 1);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(221, 221, 221, 1);
+    box-shadow: 10px 10px 5px 0px rgba(221, 221, 221, 1);
+}
+
+.card-description {
+    width: 300px;
+    border: 1px solid #bbb;
+    padding: 15px;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+
+.card-pic {
+    width: 300px;
+    display: block;
+}
+
+.card-info {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.card-info li>span:first-child {
+    font-weight: bold;
+}
+
+.card-summary {
+    font-style: italic;
+    margin: 0;
+}
