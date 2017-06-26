@@ -44,3 +44,8 @@ Now that you have your workspace set up, what do you want to try using Git for?
 
     git log 或者 git log --stat 可以查看历史记录，空格键继续浏览，q 键退出。
     git diff 比较两个版本之间的不同。
+
+使用版本控制，如何让你更有信心进行有可能会造成破坏的更改？
+
+    只有不产生冲突，就能随便改。
+
