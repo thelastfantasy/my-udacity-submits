@@ -6,48 +6,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>TAO YULONG</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <header>
-        <div id="logo">
-            <img src="img/udacity.svg" alt="Udacity Logo">
-        </div>
-        <div id="title">
-            <h1>Tao YuLong</h1>
-            <h3>Front-End Newbie</h3>
+    <header class="container">
+        <div class="row">
+            <div class="col-xs-4" id="logo">
+                <img src="img/udacity.svg" alt="Udacity Logo">
+            </div>
+            <div class="col-xs-8" id="title">
+                <h1>Tao YuLong</h1>
+                <h3>Front-End Newbie</h3>
+            </div>
         </div>
     </header>
-    <article>
-        <section id="cover">
-            <img src="img/art1.jpg" alt="Codes">
+    <article class="container">
+        <section class="row" id="cover">
+            <img class="img-responsive col-xs-12" src="img/web-dev.jpg" alt="Codes">
         </section>
-        <section id="items">
-            <h2>Featured Work</h2>
-            <figure>
-                <img src="img/appfiy.jpg" alt="Appify">
+        <section class="row" id="items">
+            <h2 class="col-xs-12">Featured Work</h2>
+            <figure class="col-md-4 col-sm-12 col-xs-12">
+                <img class="img-responsive" src="img/appify.jpg" alt="Appify">
                 <figcaption>
                     Appify
                 </figcaption>
-                <p><a href="https://github.com/udacity/Appify/">https://github.com/udacity/Appify/</a></p>
+                <p><a target="_blank" href="https://github.com/udacity/Appify/">https://github.com/udacity/Appify/</a></p>
             </figure>
-            <figure>
-                <img src="img/sunflower.jpg" alt="Sunflower">
+            <figure class="col-md-4 col-sm-12 col-xs-12">
+                <img class="img-responsive" src="img/sunflower.jpg" alt="Sunflower">
                 <figcaption>
-                    Appify
+                    Sunflower
                 </figcaption>
-                <p><a href="https://github.com/udacity/Sunflower/">https://github.com/udacity/Sunflower/</a></p>
+                <p><a target="_blank" href="https://github.com/udacity/Sunflower/">https://github.com/udacity/Sunflower/</a></p>
             </figure>
-            <figure>
-                <img src="img/bokeh.jpg" alt="Bokeh">
+            <figure class="col-md-4 col-sm-12 col-xs-12">
+                <img class="img-responsive" src="img/bokeh.jpg" alt="Bokeh">
                 <figcaption>
-                    Appify
+                    Bokeh
                 </figcaption>
-                <p><a href="https://github.com/udacity/Bokeh/">https://github.com/udacity/Bokeh/</a></p>
+                <p><a target="_blank" href="https://github.com/udacity/Bokeh/">https://github.com/udacity/Bokeh/</a></p>
             </figure>
         </section>
     </article>
+    <script src="http://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
 </body>
 
 </html>

@@ -4,63 +4,123 @@ body {
     color: #2d3c49;
 }
 
-header, article, #items {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-header, article figcaption {
+header,
+article figcaption {
     text-transform: uppercase;
 }
 
 #logo {
     text-align: left;
-    width: 50%;
 }
 
-#logo img {
-    max-width: 100px;
-    max-height: 100px;
-    min-width: 50px;
-    min-height: 50px;
-}
-
-#title {
-    display: flex;
-    flex-wrap: wrap;
-    width: 50%;
-}
-
-#title h1, #title h3 {
-    width: 100%;
+#title h1,
+#title h3 {
     margin: 0;
 }
 
-#title h1 {
-    font-size: 50px;
+.container {
+    margin-top: 16px;
 }
 
-#title h3 {
-    font-size: 24px;
-}
-
-header {
+header.container {
     border-bottom: 2px solid #7d97ad;
-    padding-bottom: 1em;
+    padding-bottom: 16px;
     text-align: right;
 }
 
-#cover img {
-    max-width: 100%;
-    height: 500px;
-}
-
-#items img {
-    width: 370px;
-    height: 250px;
+header .row {
+    vertical-align: bottom;
 }
 
 #items h2 {
     color: #7d97ad;
-    width: 100%;
+    font-size: 30px;
+}
+
+#items figure {
+    text-align: center;
+}
+
+#logo img {
+    height: 50px;
+}
+
+#title h1 {
+    font-size: 30px;
+}
+
+#title h3 {
+    font-size: 16px;
+}
+
+figcaption {
+    font-size: 30px;
+}
+
+#items figure,
+#cover img {
+    padding: 0;
+}
+
+@media screen and (min-width: 960px) {
+    header,
+    article,
+    footer {
+        width: 950px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #title h1 {
+        font-size: 64px;
+    }
+    #title h3 {
+        font-size: 28px;
+    }
+    #logo img {
+        height: 100px;
+    }
+    #items h2 {
+        font-size: 48px;
+    }
+    figcaption {
+        font-size: 32px;
+    }
+    #items * {
+        box-sizing: content-box;
+    }
+    #items figure {
+        width: calc(33.333% - 20px);
+        padding: 0 15px;
+    }
+    #items figure:first-of-type {
+        padding-left: 0;
+    }
+    #items figure:nth-of-type(3n) {
+        padding-right: 0;
+    }
+}
+
+@media screen and (max-width: 960px) and (min-width:768px) {
+    #title h1 {
+        font-size: 64px;
+    }
+    #title h3 {
+        font-size: 28px;
+    }
+    #logo img {
+        height: 100px;
+    }
+    #items h2 {
+        font-size: 48px;
+    }
+    figcaption {
+        font-size: 32px;
+    }
+    p {
+        font-size: 24px;
+    }
+    #items figure,
+    #cover img {
+        padding: 0;
+    }
 }
