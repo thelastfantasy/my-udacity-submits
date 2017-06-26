@@ -62,7 +62,7 @@ figcaption {
     padding: 0;
 }
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 961px) {
     header,
     article,
     footer {
