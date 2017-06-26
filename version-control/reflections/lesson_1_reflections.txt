@@ -39,3 +39,8 @@ Now that you have your workspace set up, what do you want to try using Git for?
 何你认为一些版本控制系统（例如 Git）允许在一次提交中保存多个文件，而其他系统（例如 Google Docs）单独对待每个文件？
 
     Google Docs 各个文件自身就是一个整体，无需彼此关联。而 Git 中文件彼此结合才能形成完整的程序或类。
+
+如何使用命令 git log 和 git diff 来查看文件的历史记录？
+
+    git log 或者 git log --stat 可以查看历史记录，空格键继续浏览，q 键退出。
+    git diff 比较两个版本之间的不同。
